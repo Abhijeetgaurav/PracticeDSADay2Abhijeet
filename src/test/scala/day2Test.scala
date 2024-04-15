@@ -1,3 +1,0 @@
-class day2Test {
-
-}
