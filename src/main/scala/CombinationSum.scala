@@ -20,12 +20,4 @@ class CombinationSum {
   }
 }
 
-object Main {
-  def main(args: Array[String]): Unit = {
-    val combinationSum = new CombinationSum
-    val nums = Array(1, 2, 3, 4, 5)
-    val target = 6
-    val combinations = combinationSum.findCombinations(nums, target)
-    println("Combinations whose is eual to  " + target + ": " + combinations.map(_.reverse))
-  }
-}
+
